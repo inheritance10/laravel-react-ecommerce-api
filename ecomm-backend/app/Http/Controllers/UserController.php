@@ -21,8 +21,11 @@ class UserController extends Controller
         if($user){
             //echo $user;
             return $user;
+            //201 code return
         }
+    }
 
+    public function login(){
 
     }
 }
